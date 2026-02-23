@@ -1,6 +1,17 @@
+<script>
+import 'animate.css'
+</script>
+<style>
+@import url("animate.css");
+</style>
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    
+    <NuxtLayout>
+      <!-- <img src="/assets/img/19.jpg" alt=""> -->
+      <NuxtPage/>
+      
+
+    </NuxtLayout>
   </div>
 </template>
