@@ -22,7 +22,9 @@ export default defineNuxtConfig({
   //     link: [{ rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css' }],
   //   },
   // },
-  
+  app:{
+    pageTransition:{name:'page', mode:'out-in'},
+  },
 
   compatibilityDate: '2025-07-15',
 
